@@ -1,4 +1,4 @@
-document.querySelector(".form__auth-btn").onclick = function () {
+document.querySelector(".form_auth-btn").onclick = function () {
   const userPassFirst = document.querySelector("#password1").value;
   const userPassSecond = document.querySelector("#password2").value;
 
@@ -15,4 +15,3 @@ document.querySelector(".form__auth-btn").onclick = function () {
   }
   return true;
 };
-
